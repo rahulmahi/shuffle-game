@@ -1,0 +1,74 @@
+.main-circle{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    position: relative;
+    margin: 20px 300px;
+    background-color: rgb(54, 170, 170);
+}
+#box1{
+    position: absolute;
+    top: 20px;
+    left: 138px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box2{
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box3{
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box4{
+    position: absolute;
+    top: 270px;
+    left: 138px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box5{
+    position: absolute;
+    top:70px;
+    left: 40px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box6{
+    position: absolute;
+    top:70px;
+    left: 235px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box7{
+    position: absolute;
+    top:230px;
+    left: 220px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#box8{
+    position: absolute;
+    top:220px;
+    left: 50px;
+    font-size: 20px;
+    color:rgb(231, 100, 67);
+}
+#btn{
+    position: absolute;
+    top: 135px;
+    left: 133px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(223, 137, 24);
+    border-radius: 15px;
+}
