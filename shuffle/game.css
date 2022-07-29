@@ -1,10 +1,13 @@
+body{
+    background-color: aquamarine;
+}
 .main-circle{
     border: 2px solid;
     height: 300px;
     width: 300px;
     border-radius: 200px;
+    box-shadow: 1px 2px 20px;
     position: relative;
-    margin: 20px 300px;
     background-color: rgb(54, 170, 170);
 }
 #box1{
@@ -12,56 +15,56 @@
     top: 20px;
     left: 138px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box2{
     position: absolute;
     top: 150px;
     left: 250px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box3{
     position: absolute;
     top: 150px;
     left: 25px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box4{
     position: absolute;
     top: 270px;
     left: 138px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box5{
     position: absolute;
     top:70px;
     left: 40px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box6{
     position: absolute;
     top:70px;
     left: 235px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box7{
     position: absolute;
     top:230px;
     left: 220px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #box8{
     position: absolute;
     top:220px;
     left: 50px;
     font-size: 20px;
-    color:rgb(231, 100, 67);
+    color:rgb(17, 12, 10);
 }
 #btn{
     position: absolute;
@@ -71,4 +74,39 @@
     width: 30px;
     background-color: rgb(223, 137, 24);
     border-radius: 15px;
+}
+.butn{
+   margin-top: 50px;
+   margin-left: 50px;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.child{
+    border: 1px solid;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px ;
+}
+#input-box1{
+    text-transform: uppercase;
+    border: rgb(228, 147, 26);
+    width: 180px;
+}
+#input-box-val{
+    text-transform: uppercase;
+}
+#btn-click{
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px;
+    width: 50px;
+}
+.over{
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 5px;
 }

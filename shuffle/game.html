@@ -11,19 +11,35 @@
 </head>
 
 <body>
-
-    <div class="main-circle">
-        <div class="box" id="box1">M</div>
-        <div class="box" id="box2">A</div>
-        <div class="box" id="box3">H</div>
-        <div class="box" id="box4">I</div>
-        <div class="box" id="box5">R</div>
-        <div class="box" id="box6">G</div>
-        <div class="box" id="box7">L</div>
-        <div class="box" id="box8">U</div>
-        <button class="box-1" id="btn"><i class="fa fa-play" ></i></button>
+    <div class="parent">
+        <div class="child">
+            <p id="attempt"></p>
+            <p id="score"></p>
+            <p>Words</p>
+            <hr>
+            <p id="input-box-val"></p>
+            <hr>
+            <p id="points"></p>
+        </div>
+        <div>
+            <div class="main-circle">
+                <div class="box" id="box1">M</div>
+                <div class="box" id="box2">A</div>
+                <div class="box" id="box3">H</div>
+                <div class="box" id="box4">I</div>
+                <div class="box" id="box5">R</div>
+                <div class="box" id="box6">G</div>
+                <div class="box" id="box7">L</div>
+                <div class="box" id="box8">U</div>
+                <button class="box-1" id="btn"><i class="fa fa-play"></i></button>
+            </div>
+            <div class="butn">
+                <input type="text" id="input-box1">
+                <button id="btn-click">click</button><br>
+                <button class="over" id="over-btn">GAME OVER</button>
+            </div>
+        </div>
     </div>
-
     <script src="game.js"></script>
 </body>
 
